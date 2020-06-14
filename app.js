@@ -3,8 +3,6 @@ let os = require('os');
 
 if (!child) throw new Error('Install child_process dependency dulu di package.json');
 
-if (os.type !== 'Linux') throw new Error('Operasi sistem harus linux.');
-
 let exec = child.exec;
 
 // Validasi : Lavalink file
